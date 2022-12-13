@@ -9,6 +9,7 @@
 <body>
 <%
 	response.sendRedirect("AccountServlet?command=account_info");
+	String sql = null;
 %>
 
 
